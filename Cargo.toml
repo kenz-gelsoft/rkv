@@ -58,7 +58,7 @@ bitflags = {version = "2.4.1", features = ["serde"]}
 byteorder = "1"
 id-arena = "2.2"
 lazy_static = "1.1"
-lmdb-rkv = { version = "0.14", optional = true }
+lmdb-rkv = { git = "https://github.com/kenz-gelsoft/lmdb-rs", rev = "d3f10dbf8869de8f009d0c5da171eb61fff16221", optional = true }
 log = "0.4.20"
 ordered-float = "3.0.0"
 paste = "1.0.6"
